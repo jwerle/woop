@@ -45,10 +45,10 @@ var loop = woop.createLoop();
 loop
 .push(function (data, done) {
     done(true, data.arguments[0]);
-    }, 'echo')
+}, 'echo')
 .on('done', function (e) {
     console.log(e.message); // 'echo'
-    })
+})
 .dequeue();
 ```
 
