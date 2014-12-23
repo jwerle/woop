@@ -1,0 +1,7 @@
+{
+  "name": "woop",
+  "version": "0.0.1",
+  "description": "Worker event loop",
+  "scripts": ["index.js"],
+  "dependencies": {"component/emitter": "*"}
+}

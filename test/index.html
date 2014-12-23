@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>woop</title>
+    <script type="text/javascript" charset="utf-8" src="/woop.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      function assert (expr, message) {
+        if (!expr) {
+          throw new Error("Assertion Failed: "+ message || '');
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8" src="/test/echo.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/test/arguments.js"></script>
+  </body>
+</html>
